@@ -1,0 +1,21 @@
+body {
+  box-sizing: content-box;
+  margin: auto;
+  background-color: #d6e6f2;
+}
+.header {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 11;
+  background: rgb(0, 174, 239);
+  height: 60px;
+}
+
+.isi {
+  margin: 10px;
+}
+.table {
+  margin: 10px;
+}

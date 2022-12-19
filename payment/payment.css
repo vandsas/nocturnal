@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #b9d7ea;
+  font-size: 17px;
+}
+
+.mian {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  background-color: #d6e6f2;
+  border-radius: 10%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.btnBayar {
+  --tw-bg-opacity: 1;
+  background-color: rgba(218, 51, 107, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  border-style: none;
+  max-width: 95%;
+  width: 100%;
+  height: 40px;
+  line-height: 1.375;
+  font-weight: 700;
+  box-shadow: rgb(189 189 189) 0px 1px 2px 0px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-radius: 25px;
+  background-color: #f7fbfc;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.teks {
+  text-align: start;
+  padding-left: 10px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 11;
+  background: rgb(0, 174, 239);
+  height: 60px;
+}
+
+.nom {
+  background-color: #f7fbfc;
+  text-align: start;
+  margin: 10px;
+  height: 40px;
+}
+
+.nom1 {
+  text-align: start;
+  margin: 10px;
+  height: 40px;
+}
+
+.nom .teks {
+  font-size: 25px;
+}
+
+.nom2 {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.in {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+}
