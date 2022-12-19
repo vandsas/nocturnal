@@ -1,0 +1,24 @@
+body {
+  box-sizing: content-box;
+  margin: auto;
+  background-color: #d6e6f2;
+}
+.header {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 11;
+  background: #00aeef;
+  height: 60px;
+}
+.btn-primary {
+  background-color: #769fcd;
+}
+.btn-outline-primary:hover {
+  background-color: #f80e0e;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}

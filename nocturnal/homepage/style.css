@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 2000px;
+}
+
+.carousel-item img {
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.btn-primary {
+  background-color: #b0c4de !important;
+  border: 2px solid black !important;
+  border-radius: 100px !important;
+  width: 140px;
+}
+
+.prof {
+  position: absolute;
+}
