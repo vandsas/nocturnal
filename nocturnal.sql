@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 19 Des 2022 pada 15.20
+-- Waktu pembuatan: 20 Des 2022 pada 16.46
 -- Versi server: 10.4.25-MariaDB
 -- Versi PHP: 8.1.10
 
@@ -108,13 +108,6 @@ CREATE TABLE `payment` (
   `doa` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data untuk tabel `payment`
---
-
-INSERT INTO `payment` (`id_payment`, `id_dana`, `username`, `nominal`, `metode`, `nama`, `email`, `doa`) VALUES
-(20, 31, 'sumbul', 30000, 1, 'muhammad sumbul', 'sumbul@gmail.com', 'Semoga diberi keselamatan dan lekas sembuh');
-
 -- --------------------------------------------------------
 
 --
@@ -126,13 +119,6 @@ CREATE TABLE `profil` (
   `username` varchar(50) NOT NULL,
   `profil` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `profil`
---
-
-INSERT INTO `profil` (`id_profil`, `username`, `profil`) VALUES
-(3, 'sumbul', '639edb4fc67d0.png');
 
 -- --------------------------------------------------------
 
@@ -154,8 +140,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`nama`, `username`, `tgl_lahir`, `email`, `no_tlpn`, `password`) VALUES
-('admin', 'admin', '2022-12-24', 'admin@gmail.com', '021313434333', '$2y$10$vVUpQ69rMI4DLkcpbrXjT.oA00H/7FvIh/O8X9rilXx852fAzgXEm'),
-('muhammad sumbul', 'sumbul', '2022-11-28', 'sumbul@gmail.com', '0213134342', '$2y$10$8Wb4OmwTP.iIcNNf8PrcHumN2EPPzxjPpNXuMtvzpS3XAxU9MKMHi');
+('admin', 'admin', '2022-12-24', 'admin@gmail.com', '021313434333', '$2y$10$vVUpQ69rMI4DLkcpbrXjT.oA00H/7FvIh/O8X9rilXx852fAzgXEm');
 
 --
 -- Indexes for dumped tables
@@ -235,7 +220,7 @@ ALTER TABLE `payment`
 -- AUTO_INCREMENT untuk tabel `profil`
 --
 ALTER TABLE `profil`
-  MODIFY `id_profil` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_profil` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
