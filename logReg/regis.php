@@ -53,7 +53,7 @@
   
     mysqli_query($koneksi,"INSERT INTO users VALUES ('$nama','$username','$tgl','$email','$no','$password')");
     
-    mysqli_query($koneksi,"INSERT INTO profil VALUES ('','$username','nophotoo.png')");
+    mysqli_query($koneksi,"INSERT INTO profil VALUES (NULL,'$username','nophotoo.png')");
   
     return mysqli_affected_rows($koneksi);
   }
