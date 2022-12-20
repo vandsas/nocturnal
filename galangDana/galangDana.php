@@ -44,7 +44,7 @@
       return false;
     }
   
-    mysqli_query($koneksi,"INSERT INTO galangdana VALUES  ('','$loginUsername','$judul','$tujuan','$penggalang','$waktu','$jenis','$target','$cerita','$gambar')");
+    mysqli_query($koneksi,"INSERT INTO galangdana VALUES  (NULL,'$loginUsername','$judul','$tujuan','$penggalang','$waktu','$jenis','$target','$cerita','$gambar')");
 
     return mysqli_affected_rows($koneksi);
   }
