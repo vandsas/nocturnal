@@ -42,7 +42,7 @@
     $doa = $data["doa"];
     $id = $_GET["id"];
   
-    mysqli_query($koneksi,"INSERT INTO payment VALUES ('','$id','$loginUsername','$nominal','$metode','$nama','$email','$doa')");
+    mysqli_query($koneksi,"INSERT INTO payment VALUES (NULL,'$id','$loginUsername','$nominal','$metode','$nama','$email','$doa')");
   
     return mysqli_affected_rows($koneksi);
   }
